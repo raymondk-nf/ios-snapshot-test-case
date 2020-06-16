@@ -144,6 +144,24 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		1D24B43C24983FB2003B9042 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F0D698F41B204E120005CAC9 /* SwiftSupport.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		1D24B485249872A3003B9042 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				B31988201AB7849400B0A900 /* FBSnapshotTestCase.h */,
+				13CBB39B1AEE013900B6ADBA /* FBSnapshotTestCasePlatform.h */,
+				B31988221AB7849400B0A900 /* FBSnapshotTestController.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		B31987E61AB782D000B0A900 = {
 			isa = PBXGroup;
 			children = (
@@ -169,14 +187,12 @@
 		B31987F21AB782D000B0A900 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1D24B485249872A3003B9042 /* Public */,
+				1D24B43C24983FB2003B9042 /* Swift */,
 				1335640F1B59C3F500A4E4BF /* Categories */,
-				B31988201AB7849400B0A900 /* FBSnapshotTestCase.h */,
 				B31988211AB7849400B0A900 /* FBSnapshotTestCase.m */,
-				13CBB39B1AEE013900B6ADBA /* FBSnapshotTestCasePlatform.h */,
 				13CBB39C1AEE013900B6ADBA /* FBSnapshotTestCasePlatform.m */,
-				B31988221AB7849400B0A900 /* FBSnapshotTestController.h */,
 				B31988231AB7849400B0A900 /* FBSnapshotTestController.m */,
-				F0D698F41B204E120005CAC9 /* SwiftSupport.swift */,
 				B31987F31AB782D000B0A900 /* Supporting Files */,
 			);
 			name = Sources;
